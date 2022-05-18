@@ -13,8 +13,8 @@ contract L2StandardERC20 is IL2StandardERC20, ERC20 {
 
       
     ) ERC20("Pegasys", "bol") {
-        l1Token = address(0x9542dA7048279434F4847b29aBFEe8AAb2eCdCb3);
-        l2Bridge = address(0x510A5D64cCFBd50Ec42Fa400601a0fedf1d452bC);
+        l1Token = address(0x9d5D6Fdf16CEf87d443B2229F0A02ccCcbeCAbcd);
+        l2Bridge = address(0x5f971686Ea09b26d34477cc08092fd2C5AD03Fb7);
     }
 
     modifier onlyL2Bridge() {

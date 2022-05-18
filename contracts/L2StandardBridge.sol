@@ -36,7 +36,7 @@ contract L2StandardBridge is IL2ERC20Bridge, LibCrossDomainEnabled {
     constructor()
         LibCrossDomainEnabled(address(0x4200000000000000000000000000000000000007))
     {
-        l1TokenBridge = address(0x9d96a2AAf2118A2a8609Fc504623B2769eBf1410);
+        l1TokenBridge = address(0x210A59dCA433D93d41E16126fa7c7f39276Fe855);
     }
 
     /***************

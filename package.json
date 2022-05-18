@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@eth-optimism/contracts": "^0.5.24",
     "@openzeppelin/contracts": "^4.6.0",
     "hardhat": "^2.9.3"
   },

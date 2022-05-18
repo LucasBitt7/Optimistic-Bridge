@@ -12,7 +12,7 @@ async function main() {
   await l1StandardBridge.deployed();
   console.log("L1StandardBridge deployed to:", l1StandardBridge.address);
 
-
+///0x210A59dCA433D93d41E16126fa7c7f39276Fe855
 }
 
 main().catch((error) => {
